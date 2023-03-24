@@ -6,26 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <main>
-        <section>
-            <h1>Welcome back</h1>
-            <p>Welcome back!Please enter your details.</p>
+        <section class="hero">
+            <div class="titulo">
+                <h1>Welcome back</h1>
+                <p class="primer">Welcome back!Please enter your details.</p>
+            </div>
+           
             <form action="">
-                <label for="">Email</label>
+                <label for="" class="email">Email</label>
                 <input type="email" placeholder="Ingrese su Email" maxlength="50" required>
-                <label for="">Password</label>
-                <input type="password" placeholder="Ingrese su Password" maxlength="50" required>
-                <input type="checkbox">
-                <label for="">Remember for 30 days</label>
-
+                <label class="contrasena" for="">Password</label>
+                <input type="password" placeholder="********" maxlength="50" required>
+                
+                <div class="check">
+                    <label><input type="checkbox" >Remember for 30 days</label>
+                    <p class="checkp">Forgot password</p>
+                </div>
+                
+                
                 <button>Sign in</button>
                 
             </form>
-            <p><b>Forgot password?</b></p>
-            <button>Sign in with Google</button>
-            <p>Don't have an account?Sign up for free</p>
+            <button class="google"><i class="bi bi-google fa-x6"></i> Sign in with Google</button>
+            
+            <p class="cuenta">Don't have an account? <a href="">Sign up for free</a></p>
 
             <div>
                 <img src="foto.jpg" alt="">
