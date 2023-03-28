@@ -10,9 +10,16 @@ a{
     text-decoration: none;
     color: #000;
 }
+.hero{
+    display: flex;
+    height: 700px;
+    width: 100p;
+}
+
+
 
 .titulo{
-    margin: 150px 0px 0px 170px;
+    margin: 80px 0px 0px 0px;
     line-height: 40px;
 }
 
@@ -22,14 +29,16 @@ a{
 }
 
 .titulo p{
+    font-size: 14px;
     color: #818080;
+    margin-bottom: 20px;
 }
 
 .hero form{
     display: flex;
     flex-direction: column; 
     width: 20%;
-    margin: 30px 0px 10px 170px;
+    margin: 80px 0px 1000px 170px;
 }
 
 .contrasena{
@@ -56,31 +65,105 @@ input[type="email"], input[type="password"]{
     border-radius: 7px;
 }
 
-form button{
+form button.sign{
     padding: 12px;
     background-color: black;
     color: #fff;
     border: 1px solid black;
-    border-radius: 7px;
+    border-radius: 8px;
 }
 
 .google{
-    padding: 12px;
-    border: 1px solid #d3d3d3;
-    border-radius: 7px;
-    margin: 10px 0px 0px 170px;
-    width: 20%;
+    margin-top: 20px;
     background-color: #fff;
-    color: black;
-    font-weight: 600;
+    padding: 8px;
+    border: 1px solid #8a8989;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.google img{
+    width: 20px;
+    margin-right: 5px;
 }
 
 .cuenta{
-    margin: 20px 0px 0px 174px;
-    color: #8a8989;
+    margin: 20px 0px 0px 10px;
+    font-size: 15px;
+    color: #818080;
 }
 
 .cuenta a{
     font-weight: 500;
-} 
+}
 
+
+.info{
+    background-image: url(./foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 803px;
+    margin: 0px 0px 0px 310px;
+    color: #fff;
+}
+
+
+
+#container{
+    width: 700px;
+    height: 300px;
+    box-shadow: 0 10px 30px #000;
+    margin: 200px auto;d
+    border: 1px solid #ffffff40;
+}
+
+.filtro{
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
+
+.info h3{
+    font-size: 25px;
+    margin:450px 0px 0px 55px;
+    padding: 15px 0px 0px 0px;
+}
+
+.info h2{
+    margin: 0px 0px 20px 55px;
+}
+
+.catalog{
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+
+.info p{
+    margin: 0px 0px 0px 55px;
+}
+
+.soloi{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.bi.bi-star-fill{
+    padding-right: 5px;
+}
+
+
+
+.bi.bi-arrow-left-circle.left{
+    margin: 0px 0px 0px 366px;
+    font-size: 35px;
+    padding-right: 10px ;
+    cursor: pointer;
+}
+
+.bi.bi-arrow-right-circle.right{
+    font-size: 35px;
+    cursor: pointer;
+}
